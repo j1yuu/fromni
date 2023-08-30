@@ -1,0 +1,76 @@
+.header {
+    background-color: #454545;
+    width: 100%;
+    position: sticky;
+    z-index: 10;
+}
+.logo{
+    height: 39px;
+}
+.me {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: none;
+    background-image: url('https://img.freepik.com/premium-vector/business-global-economy_24877-41082.jpg?size=626&ext=jpg&ga=GA1.1.68910854.1693243399&semt=ais');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.anon {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: none;
+    background-color: #c3c3c3;
+    cursor: pointer;
+}
+
+.link {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 41px;
+    color: #ffffff;
+}
+.open {
+    display: block;
+    position: absolute;
+    right: 0; 
+    top: 64px;    
+    z-index: 9;
+
+}
+.closed {
+    display: none;
+}
+.menu {
+    padding: 12px 32px 32px;
+    border: 1px solid #565656;
+    border-bottom-left-radius: 20px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+}
+.menu__me {
+    color: #454545;
+    font-size: 18px;
+}
+.menu__logout {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #598560;
+    font-size: 18px;
+    border-radius: 12px;
+    color: #fff;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+.menu__logout:hover {
+    background-color: #566a3c;
+}

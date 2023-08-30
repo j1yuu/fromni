@@ -1,0 +1,45 @@
+.form {
+    margin: 40px auto;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 32px;
+}
+.title {
+    margin-bottom: 20px;
+}
+.fields {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.field {
+    margin-bottom: 20px;
+}
+.button {
+    color: #fff !important;
+    background-color: #454545 !important;
+}
+.button:hover {
+    background-color: #598560 !important;
+}
+.acc {
+    display: block;
+    margin-top: 32px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    letter-spacing: -0.015em;
+}
+.link {
+    color:#598560;
+    font-size: 18px;
+    letter-spacing: -0.015em;
+    display: flex;
+    align-items: center;
+    transition: color .3s;
+}
+.link span {
+    margin-right: 6px;
+}
+.link:hover {
+    color: #454545;
+}

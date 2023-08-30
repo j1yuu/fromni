@@ -1,0 +1,77 @@
+.campaign {
+    padding: 19px 35px 14px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.skeletonCampaign {
+    padding: 19px 35px 14px;
+    border-radius: 20px;
+    border: 1px solid #454545;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    max-width: 60%;
+}
+.upper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 11px;
+}
+.title {
+    color: #000;
+    font-family:'Roboto';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.skeletonTitle {
+    width: 80px;
+    font-size: 21px;
+    line-height: normal;
+}
+.icons {
+    margin-left: 26px;
+    display: flex;
+    align-items: center;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+}
+.description {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.right {
+    display: flex;
+}
+.edit, .delete {
+    width: 29px;
+    height: 29px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 27px;
+    cursor: pointer;
+}
+.edit img, .delete img {
+    width: auto;
+    height: 100%;
+}
+.skeletonEdit, .skeletonDelete {
+    width: 29px;
+    height: 29px;
+    margin-left: 27px;
+}
